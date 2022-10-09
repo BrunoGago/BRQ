@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="1E4F274A-234E-15FE-34A8-FC804455BEB6">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-28 23:04:44 UTC</createdTime>
+<ownerDesignName>FINTECH-FIAP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

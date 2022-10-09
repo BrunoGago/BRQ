@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89DF0848-348C-F02F-2BE8-CF109CB19EED" name="T_BAIRRO">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>FF39F981-1B6E-B10F-76BA-0AF62DA7CD24</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_bairro" id="3A64B7E7-4C1A-C362-FC29-48701F75B8D0">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>29B2AB2A-28EF-9B5F-062A-E0B1A0EE6866</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_bairro" id="47AE085F-CE01-C4ED-94DF-E4EC1822D645">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>B74F1635-31B5-F768-FB8B-1EEA12B1559B</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CIDADE_cd_cidade" id="37C6321A-968E-8F82-70C2-BD6068D8AE61">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>C2B5605A-E6AA-2C8F-1CD4-0482C011F4BA</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA43E9B4-CC14-0989-6298-2CBA1DF59F73" referredColumn="0E8447D8-7F9A-9E24-EF98-E16155FEE98A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D66BE1D8-AC27-ED1D-AA3A-D4DF2D05EB20" name="T_BAIRRO_PK">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>3A0679BD-CBA5-04F3-EACF-467148F87B0C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A64B7E7-4C1A-C362-FC29-48701F75B8D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DCE4B22-730D-F685-2BFF-26E18373B617" name="T_BAIRRO_T_CIDADE_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>CE94B90C-6231-E6EF-59C5-C7125F0D81EC</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37C6321A-968E-8F82-70C2-BD6068D8AE61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

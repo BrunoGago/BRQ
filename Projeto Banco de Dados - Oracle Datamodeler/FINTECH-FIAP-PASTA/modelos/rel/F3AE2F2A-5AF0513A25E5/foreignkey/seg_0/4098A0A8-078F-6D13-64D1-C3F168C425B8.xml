@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4098A0A8-078F-6D13-64D1-C3F168C425B8" containerWithKeyObject="6D74924A-3347-25BE-04FD-E6FD96847F12" localFKIndex="52A88EC6-AF9A-ED3C-9192-ABC3004D052B" name="T_TELEFONE_T_GPS_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>0844B1E1-246E-991D-C1FE-FDE089ACD779</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<referredTableLongName>T_GPS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B66C8AB1-670A-D334-2EE4-2AE047B4E3D8</referredTableID>
+<keyObject>F9B5272D-87A9-58EC-DA1E-B22AA59B21BF</keyObject>
+<referredKeyID>F9B5272D-87A9-58EC-DA1E-B22AA59B21BF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>latitude_longitude</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

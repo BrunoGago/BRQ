@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B26166A-7EE5-B090-18EC-C8F1D9935AB1" name="T_TIPO_TELEFONE">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-29 02:47:13 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_telefone" id="40E616B2-2BB1-D057-CC2B-23B6192735A3">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-29 02:47:31 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_telefone" id="49381B9C-9794-98D6-C269-3BB4DD48D41B">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-29 02:47:31 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FC5A55D8-547A-690F-8057-56AE948A0F45" name="T_TIPO_TELEFONE PK">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-29 02:47:56 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40E616B2-2BB1-D057-CC2B-23B6192735A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C587EFD8-56D8-C687-1EC7-08837E655EB3" name="T_MENSAGENS">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-28 23:54:00 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_mensagem" id="B77F4B3A-411B-ABCD-DD63-9364F4E82D6C">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-01 21:05:28 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="9A480704-E955-22AF-7F88-8D1AF3FB42A7">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-01 21:17:14 UTC</createdTime>
+<generatorID>A2AF63AC-D7F1-89B5-3AA3-1C782362E43D</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<referedAttribute>78977325-E06B-F7A1-3146-253D38320C3A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_mensagem" id="02BAA38E-8A6F-33C8-5B87-7B7E270CC928">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-01 21:05:28 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5F131A9-0B0D-9386-B3D1-8EDD6553356E" name="T_MENSSAGENS PK">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-01 21:06:02 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B77F4B3A-411B-ABCD-DD63-9364F4E82D6C</attributeRef>
+<attributeRef>9A480704-E955-22AF-7F88-8D1AF3FB42A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

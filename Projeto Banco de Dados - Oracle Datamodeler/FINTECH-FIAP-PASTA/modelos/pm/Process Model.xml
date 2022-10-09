@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="70916C81-A763-9466-80C0-97060D7A4560">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-28 23:04:44 UTC</createdTime>
+<ownerDesignName>FINTECH-FIAP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

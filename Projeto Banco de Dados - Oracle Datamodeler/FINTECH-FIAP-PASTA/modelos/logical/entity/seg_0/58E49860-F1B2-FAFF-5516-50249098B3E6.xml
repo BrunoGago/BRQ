@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58E49860-F1B2-FAFF-5516-50249098B3E6" name="T_ENDERECO">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-28 23:06:29 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cep" id="B9CBD8D9-EAAB-7E1E-21EE-265AF587E7DB">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-01 18:26:01 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_bairro" id="C8AC700D-4F67-6D0F-32AE-16BA9ACADAE6">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-01 19:10:55 UTC</createdTime>
+<generatorID>14C26ECF-CE7F-C068-73DE-1F77923400CE</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<referedAttribute>29B2AB2A-28EF-9B5F-062A-E0B1A0EE6866</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_serie" id="E4A80020-C209-6DED-0F3F-D6B83E498A5E">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-04 22:19:57 UTC</createdTime>
+<generatorID>1F0376D3-EE1F-7C76-C633-A2E1744A2205</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<referedAttribute>D013AD5B-E124-F90B-ABA6-0F0817617836</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_logradouro" id="BC79FC6A-58D8-5D19-4265-7C3C07AD993C">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:37:44 UTC</createdTime>
+<generatorID>C84CAC50-43B5-4346-9873-618E2590613C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<referedAttribute>66CEB139-D946-2724-35D2-2DBCD6FFB24C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2566496-5162-8D48-9F6B-486C668D8226" name="T_ENDERECO PK">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-01 18:26:33 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B9CBD8D9-EAAB-7E1E-21EE-265AF587E7DB</newElementsIDs>
+<usedAttributes>
+<attributeRef>B9CBD8D9-EAAB-7E1E-21EE-265AF587E7DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

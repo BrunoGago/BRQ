@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDFFDECA-15AE-77F5-22CF-14B94C2B4AF0" name="T_ESTADO">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>1E8BEE01-ED71-58D1-3AE7-84BF918E45A8</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_estado" id="7487B783-3BD4-2635-058C-DA265E5BC84D">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>BB581F6D-F80A-C6B9-102D-144316CDB873</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="6D37B61B-F556-678C-89E8-930CD276E592">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>7B4A3CA7-E71C-22B6-DB94-A069C7DCB2BA</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_estado" id="C0A966A8-7838-8A0D-03B9-50D49C40739F">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>B352CE6B-CDE2-A3A7-4676-EB59E74C03F1</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DF5C930-FB07-D698-A675-DD844E02CE96" name="T_ESTADO_PK">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>AB0C0E0E-ABC0-9DDC-540F-94FDA9E35BAF</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7487B783-3BD4-2635-058C-DA265E5BC84D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

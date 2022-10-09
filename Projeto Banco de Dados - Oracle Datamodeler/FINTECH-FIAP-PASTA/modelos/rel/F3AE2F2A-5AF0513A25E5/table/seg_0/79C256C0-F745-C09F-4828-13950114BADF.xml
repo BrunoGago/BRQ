@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79C256C0-F745-C09F-4828-13950114BADF" name="T_MENSAGENS">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>C587EFD8-56D8-C687-1EC7-08837E655EB3</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_mensagem" id="FED409AD-330D-E37A-3E2E-02AF570EA871">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>B77F4B3A-411B-ABCD-DD63-9364F4E82D6C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TELEFONE_nr_telefone" id="5FDFE168-216F-479F-78A0-803B1FA1E2CC">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>9A480704-E955-22AF-7F88-8D1AF3FB42A7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9C21AF4-C2EB-EB99-FEC8-098969D8CAF0" referredColumn="A7F6032E-98A9-0388-C9C1-70EF01B55BC2"/>
+</associations>
+</Column>
+<Column name="ds_mensagem" id="B9BB45A9-4A6A-55D3-53CC-B538783E89C5">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>02BAA38E-8A6F-33C8-5B87-7B7E270CC928</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CEB4EE9-247F-D382-751F-3F067DDA80D2" name="T_MENSAGENS_PK">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>A5F131A9-0B0D-9386-B3D1-8EDD6553356E</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FED409AD-330D-E37A-3E2E-02AF570EA871"/>
+<colUsage columnID="5FDFE168-216F-479F-78A0-803B1FA1E2CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93AA49B4-F83A-BD0A-261D-DDA12FD397D7" name="T_MENSAGENS_T_TELEFONE_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>A2AF63AC-D7F1-89B5-3AA3-1C782362E43D</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FDFE168-216F-479F-78A0-803B1FA1E2CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

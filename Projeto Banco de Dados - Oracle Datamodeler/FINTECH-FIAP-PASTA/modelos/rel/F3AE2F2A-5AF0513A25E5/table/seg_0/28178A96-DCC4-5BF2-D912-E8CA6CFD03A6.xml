@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28178A96-DCC4-5BF2-D912-E8CA6CFD03A6" name="T_CAMERA">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>C9EBE42F-C30A-0C87-FD34-5725D212B497</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="video" id="3ABC77BF-BBE7-BDE7-1F07-78737F618662">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>D3D288AF-D81D-B563-2B6D-76642DB42B59</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT016</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TELEFONE_nr_telefone" id="0BCB9DFF-34A8-10AB-C2B9-EEF4C1521C74">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>A7B37F21-07E0-A0CF-C992-CC1863AB25E6</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C14AA5D3-BDDE-D8E8-E0E6-B578A3ACECAE" referredColumn="A7F6032E-98A9-0388-C9C1-70EF01B55BC2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF786D20-8F73-C36F-E04F-9B5DA03CDD32" name="T_CAMERA_PK">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>2E99E5A0-17A7-120B-817B-B5748048C57B</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BCB9DFF-34A8-10AB-C2B9-EEF4C1521C74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFEE8146-0B50-5BFD-03D4-94E6AD4D4000" name="T_CAMERA_T_TELEFONE_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>BB881B82-8D6B-67D2-5E5A-83310A42B626</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BCB9DFF-34A8-10AB-C2B9-EEF4C1521C74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

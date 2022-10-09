@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10469335-FA18-A258-B4B4-48BFE59AD6FE" name="T_TELEFONE">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-28 23:05:39 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_telefone" id="78977325-E06B-F7A1-3146-253D38320C3A">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-29 02:48:23 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="80BE4F34-E17A-DA51-9192-4D707168C105">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-29 02:48:23 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ramal" id="CFB0A9DF-98C6-E0F9-2A77-BF0F772BA275">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-29 02:48:23 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddi" id="81EE36D7-B475-D7C4-54CE-053B49B00BBA">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-29 02:48:23 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_telefone" id="F87BCC85-97E3-FF3C-4608-B27CC260D988">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-01 19:12:07 UTC</createdTime>
+<generatorID>5E0E5C3C-C4F7-547C-9572-45D3CAD228D1</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<referedAttribute>40E616B2-2BB1-D057-CC2B-23B6192735A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude_longitude" id="4E4385B9-8A52-DBE2-83EF-7E392A2B12E5">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-04 22:19:10 UTC</createdTime>
+<generatorID>0844B1E1-246E-991D-C1FE-FDE089ACD779</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<referedAttribute>2DD53A8D-B53D-EDD9-8943-4716964AFFFC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_serie" id="8609BEB7-8F44-62DD-1895-85B129D526C7">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-04 22:20:17 UTC</createdTime>
+<generatorID>5538A732-9312-BCF3-B4DE-0082F91C721B</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="true"/>
+</engineerTo>
+<referedAttribute>D013AD5B-E124-F90B-ABA6-0F0817617836</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04015948-CF6C-4F41-9085-820DACACCA0B" name="T_TELEFONE PK">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-29 02:48:46 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F3AE2F2A-E7B9-CDB4-D8C0-5AF0513A25E5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78977325-E06B-F7A1-3146-253D38320C3A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C571010-2490-D820-AFB4-13C50DF6296D" containerWithKeyObject="0BE68A79-98F1-75AB-D33A-846E5D2D6536" localFKIndex="7AD82F46-0ACF-19E8-E587-3F4B3FA07467" name="T_ENDERECO_T_MULTIMIDIA_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2022-10-05 12:32:47 UTC</createdTime>
+<generatorID>1F0376D3-EE1F-7C76-C633-A2E1744A2205</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<referredTableLongName>T_MULTIMIDIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8C3211C6-F024-802A-F363-20F5B38D783D</referredTableID>
+<keyObject>E81A8AD9-AD4C-CB4D-8AC2-C87B75DEEB03</keyObject>
+<referredKeyID>E81A8AD9-AD4C-CB4D-8AC2-C87B75DEEB03</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nm_serie</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

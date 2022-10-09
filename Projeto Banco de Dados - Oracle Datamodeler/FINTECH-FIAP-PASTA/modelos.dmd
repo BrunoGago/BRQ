@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelos" id="36810362-35BB-5992-5FFB-222E65093211" version="3.5">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-28 23:04:44 UTC</createdTime>
+<ownerDesignName>FINTECH-FIAP</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>36810362-35BB-5992-5FFB-222E65093211</designId>
+</OSDM_Design>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="24613DD8-3370-0331-BEA4-25B6DD2DAC1E" mainViewID="57766688-7D16-6669-EBDC-751637C21C55">
+<createdBy>Yago</createdBy>
+<createdTime>2022-09-28 23:04:44 UTC</createdTime>
+<ownerDesignName>FINTECH-FIAP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
